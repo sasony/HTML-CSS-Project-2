@@ -37,7 +37,12 @@ body {
     color: #383838;
 }
 
-.nav-child3 .contact-btn {
+a:hover {
+    color: #791e1e;
+    font-weight: 600;
+}
+
+.contact-btn {
     padding: 10px;
     background-color: #1077d6;
     border: none;
@@ -46,10 +51,13 @@ body {
     font-weight: 500;
 }
 
+.contact-btn:hover {
+    background-color: #338328;
+}
+
 .hero-container {
     height: 600px;
     display: flex;
-    /* background-color: cyan; */
     align-items: center;
 }
 
@@ -83,10 +91,15 @@ h1>span {
 }
 
 .btn2 {
-    padding: 10px 15px;
+    padding: 12px 18px;
     background-color: #1077d6;
     border: none;
     border-radius: 7px;
     color: #ffffff;
     font-weight: 500;
+}
+
+.btn2:hover {
+    background-color: #338328;
+    cursor: pointer;
 }
