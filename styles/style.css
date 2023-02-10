@@ -17,6 +17,7 @@ body {
 .nav-container {
     display: flex;
     align-items: center;
+    /* margin-bottom: 10px; */
 }
 
 .nav-child1 {
@@ -33,16 +34,16 @@ body {
 .nav-child2 a {
     text-decoration: none;
     padding-left: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #383838;
 }
 
 a:hover {
-    color: #791e1e;
-    font-weight: 600;
+    color: #c01313;
+    font-weight: 800;
 }
 
-.contact-btn {
+.btn1 {
     padding: 10px;
     background-color: #1077d6;
     border: none;
@@ -51,12 +52,12 @@ a:hover {
     font-weight: 500;
 }
 
-.contact-btn:hover {
+.btn1:hover {
     background-color: #338328;
+    cursor: pointer;
 }
 
 .hero-container {
-    height: 600px;
     display: flex;
     align-items: center;
 }
@@ -76,10 +77,6 @@ h1>span {
     text-transform: capitalize;
 }
 
-.left-hero {
-    width: 50%;
-}
-
 .left-hero p {
     color: #6f6f6f;
     font-size: 18px;
@@ -88,6 +85,14 @@ h1>span {
 
 .service-button {
     padding-top: 60px;
+}
+
+.right-hero {
+    width: 50%;
+}
+
+.image {
+    width: 750px;
 }
 
 .btn2 {
